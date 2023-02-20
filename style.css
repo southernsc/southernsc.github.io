@@ -1,0 +1,15 @@
+body {
+	height:1500px; // Remove this later
+}
+
+#center-column {
+	text-align: center;
+	margin-top: 5%;
+}
+
+#top-of-page {
+	padding-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
