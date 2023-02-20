@@ -32,8 +32,8 @@
 </head>
 <body>
 <div id="top-of-page" class="container-fluid mt-3">
-	<h1>SOUTHERN LEGION INFO</h1>
-	<h4>Sportsman's Fraternity</h4>
+	<h1>SOUTHERN SPORTSMAN'S CLUB</h1>
+	<h4>"Iron Sharpens Iron"</h4>
 </div>
 
 
@@ -67,7 +67,7 @@
 	<div class="col-lg-3 col-sm-1"></div>
 	<div id="center-column" class="col-lg-6 col-sm-10">
 		<!-- Center of Page -->
-		<h2>Rankings</h2>
+		<h2>Training</h2>
 		<p></p>
 	</div>
 	<div class="col-lg-3 col-sm-1"></div>
