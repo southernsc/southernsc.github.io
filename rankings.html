@@ -64,8 +64,8 @@
 
 <!-- Main content -->
 <div class="row">
-	<div class="col-lg-3 col-sm-1"></div>
-	<div id="center-column" class="col-lg-6 col-sm-10">
+	<div class="col-lg-2 col-sm-1"></div>
+	<div id="center-column" class="col-lg-8 col-sm-10">
 		<!-- Center of Page -->
 		<h2>Rankings</h2>
 		<br>
@@ -84,25 +84,98 @@
 		<div style="text-align: left" class="collapse mt-3 scroll-section" id="collapseWithScrollbar"  style="max-width: 500px">
 			A member's score in each event is their rank in that event multiplied by the following points: 
 			<ul>
-				<li>5 mile run = 1 point</li>
-				<li>12 mile ruck = 2 points</li>
-				<li>100 meter dash = 3 points</li>
+				<li>5 mile run (hh:mm:ss) = 1 point</li>
+				<li>12 mile ruck (hh:mm:ss) = 2 points</li>
+				<li>100 meter dash (sec) = 3 points</li>
 				<li>Pull-ups (total in 2 min) = 4 points</li>
 				<li>Push-ups (total in 2 min) = 4 points</li>
+				<li>Sit-ups (total in 2 min) = 4 points</li>
 				<li>Dips (total in 2 min) = 4 points</li>
-				<li>Squat (% of bodyweight) = 5 points</li>
-				<li>Bench (% of bodyweight) = points</li>
-				<li>Deadlift (% of bodyweight) = points</li>
-				<li>Overhead Press (% of bodyweight) = 5 points</li>
+				<li>Squat (1RM / bodyweight) = 5 points</li>
+				<li>Bench (1RM / bodyweight) = 5 points</li>
+				<li>Deadlift (1RM / bodyweight) = 5 points</li>
+				<li>Overhead Press (1RM / bodyweight) = 5 points</li>
 			</ul>
-			A member's total score is the sum of the scores in each event. A lower total score yields a better overall rank.
+			A member's <strong>total score</strong> is the sum of the scores in each event.
+			<br>A lower total score yields a better <strong>overall rank</strong> (just like Golf).
 		</div>
-
-		
+		<br><br><br>
+		<div class="table-responsive">
+			<table class="table table-striped">
+				<thead class="table-dark">
+					<tr>
+						<th scope="col">Rank</th>
+						<th scope="col">Name</th>
+						<th scope="col">Total Score</th>
+						<th scope="col">5mi Run</th>
+						<th scope="col">12mi Ruck</th>
+						<th scope="col">100m Dash</th>
+						<th scope="col">Pull-Ups</th>
+						<th scope="col">Push-Ups</th>
+						<th scope="col">Sit-Ups</th>
+						<th scope="col">Dips</th>
+						<th scope="col">Squat</th>
+						<th scope="col">Bench</th>
+						<th scope="col">Deadlift</th>
+						<th scope="col">Overhead Press</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>John Doe</td>
+						<td>42</td>
+						<td>00:30:35</td>
+						<td>02:30:00</td>
+						<td>12.05</td>
+						<td>20</td>
+						<td>75</td>
+						<td>110</td>
+						<td>30</td>
+						<td>2.0x</td>
+						<td>1.5x</td>
+						<td>2.5x</td>
+						<td>1.0x</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Bob Smith</td>
+						<td>84</td>
+						<td>00:42:32</td>
+						<td>03:20:00</td>
+						<td>13.8</td>
+						<td>14</td>
+						<td>50</td>
+						<td>85</td>
+						<td>21</td>
+						<td>1.5x</td>
+						<td>1.0x</td>
+						<td>2.0x</td>
+						<td>0.7x</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Joe Shmoe</td>
+						<td>168</td>
+						<td>00:50:20</td>
+						<td>03:40:15</td>
+						<td>15.6</td>
+						<td>10</td>
+						<td>35</td>
+						<td>60</td>
+						<td>17</td>
+						<td>1.3x</td>
+						<td>0.9x</td>
+						<td>1.7x</td>
+						<td>0.5x</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
 
 	</div>
-	<div class="col-lg-3 col-sm-1"></div>
+	<div class="col-lg-2 col-sm-1"></div>
 </div>
 </body>
 </html>
